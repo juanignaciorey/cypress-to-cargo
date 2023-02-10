@@ -1,0 +1,18 @@
+{
+  "name": "cypress-to-cargo",
+  "version": "1.0.0",
+  "description": "This repository is the result of a one hour technical interview for Cargo Produce. As a QA, your job is expected to be to identify test cases for when this functionality is in the QA environment. It will list the tests that will verify that the enhancement works as expected. You will also write several test suites in Cypress to test this enhancement. The environment will be an imaginary environment based on the description described in the markdown.",
+  "main": "index.js",
+  "scripts": {
+    "cy:run:chrome": "cypress run -b chrome",
+    "cy:run:firefox": "cypress run -b firefox",
+    "cy:run:e2e": "cypress run e2e --spec 'cypress/e2e/**/*.cy.js'",
+    "test": "cypress run e2e --browser chrome --config retries=0,video=false"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.5.1"
+  }
+}
