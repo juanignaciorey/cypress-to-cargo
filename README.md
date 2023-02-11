@@ -1,7 +1,7 @@
 
 # Introduction
 
-_This repository is the result of a one hour technical interview for Cargo Produce. As a QA, your job is expected to be to identify test cases for when this functionality is in the QA environment. It will list the tests that will verify that the enhancement works as expected. You will also write several test suites in Cypress to test this enhancement. The environment will be an imaginary environment based on the description described in the markdown._
+_This repository is the result of a one hour technical interview for C**** P******. As a QA, your job is expected to be to identify test cases for when this functionality is in the QA environment. It will list the tests that will verify that the enhancement works as expected. You will also write several test suites in Cypress to test this enhancement. The environment will be an imaginary environment based on the description described in the markdown._
 
 # Description
 
